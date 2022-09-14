@@ -5,7 +5,6 @@ body {
   background-color:#000000;
   width:1310px;
   margin:auto;
-  padding:10px;
   font-family:'Arial';
   font-size:20px;
 }
@@ -71,7 +70,6 @@ img[src="images/TK.png"] {
   }
 figure {
   width:420px;
-  margin:10px;
 }
 #contact {
   text-align:center;
@@ -102,4 +100,5 @@ footer {
     font-size:16px;
     text-align:center;
 }
+  
   
