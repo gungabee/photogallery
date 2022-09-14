@@ -7,13 +7,14 @@ html {
     background-color:#FFFFFF;
     font-family:'Arial';
     color:#000000;
+  }
   #top {
     background-color:#000000;
     }
   h1 {
     font-size:40px;
     text-transform:uppercase;
-    color:#007D7B
+    color:#007D7B;
     text-align:left;
   }
   header img {
@@ -25,7 +26,7 @@ html {
   }
   nav li {
     display:inline-flex;
-    font-sizze:20px;
+    font-size:20px;
   }
   nav {
     float:right;
