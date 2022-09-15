@@ -2,17 +2,12 @@ html {
     background-color:#000000;
   }
 body {
-  background-color:#000000;
+  background-color:#FFFFFF;
   width:1310px;
-  margin:auto;
-  font-family:'Arial';
+  margin:0 auto;
+  font-family:Arial, Helvetica, sans-serif;
   font-size:20px;
 }
-  #wrapper {
-    background-color:#FFFFFF;
-    color:#000000;
-    padding:10px;
-  }
   #top {
     background-color:#000000;
     }
@@ -37,7 +32,8 @@ nav {
   nav li {
     float:right;
     text-align:center;
-    padding:10px;
+    padding-left:50px; 
+    padding-right:50px;
     font-size:20px;
   }
   nav a { 
@@ -83,6 +79,7 @@ figure {
 .small {
     width: 420px;
     height: 281px;
+    padding:0px;
     margin: 5px 0px 0px 5px;
 }
 .large {
@@ -120,6 +117,7 @@ figure {
   left:10px;
   color:#000000;
 }
+/*
 .column1 {
   width:420px;
   padding:10px 5px 10px 0px;
@@ -132,7 +130,9 @@ figure {
   width:420px;
   padding:10px 0px 10px 5px;
 }
+*/
 #contact {
+  background-color:#000000;
   clear:both;
   text-align:center;
 }
@@ -149,17 +149,25 @@ form label {
   font-size:16px;
   text-transform:uppercase;
   text-align:left;
+  position:relative;
 }
 input::placeholder {
   color:#007D7B;
   font-size:16px;
   text-transform:uppercase;
 }
-.button {
-  background-color:007D7B;
-  size:425px;
+button {
+    background-color:#007D7B;
+    size:425px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform:uppercase;
+    text-align: center;
+    padding:16px 212px;
+    border-radius: 16px;
 }
 footer {
+    background-color: #000000;
     color:#FFFFFF;
     font-size:16px;
     text-align:center;
