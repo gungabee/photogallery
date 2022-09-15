@@ -77,9 +77,18 @@ img[src="images/TK.png"] {
     overflow:auto;
   }
 figure {
-  width:420px;
   float:left;
   position:relative;
+}
+.small {
+    width: 420px;
+    height: 281px;
+    margin: 5px 0px 0px 5px;
+}
+.large {
+    width: 420px;
+    height: 630px;
+    margin: 5px 0px 0px 5px;
 }
 .topleftblack {
   position:absolute;
