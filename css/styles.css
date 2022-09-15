@@ -66,7 +66,6 @@ nav {
 }
 img[src="images/TK.png"] {
     width:850px;
-    margin: 10px;
     float:left;
 }
   #about {
@@ -79,9 +78,11 @@ img[src="images/TK.png"] {
 figure {
   width:420px;
 }
-figcaption.topleftblack {
+.topleftblack {
+  position:absolute;
+  top:5px; 
+  left:5px;
   color:#000000;
-  text-align:top, left;
 }
 .column1 {
   padding:10px 5px 10px 0px;
@@ -112,7 +113,7 @@ input::placeholder {
   font-size:16px;
   text-transform:uppercase;
 }
-input[type=submit] {
+.button {
   background-color:007D7B;
   size:425px;
 }
