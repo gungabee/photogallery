@@ -15,7 +15,6 @@ body {
   }
   #top {
     background-color:#000000;
-    overflow:auto;
     }
   h1 {
     font-size:40px;
@@ -75,51 +74,57 @@ img[src="images/TK.png"] {
   }
   #gallery {
     clear:both;
+    overflow:auto;
   }
 figure {
   width:420px;
+  float:left;
   position:relative;
 }
 .topleftblack {
   position:absolute;
-  top:5px; 
-  left:5px;
+  top:10px; 
+  left:10px;
   color:#000000;
 }
 .topleftwhite {
   position:absolute;
-  top:5px; 
-  left:5px;
+  top:10px; 
+  left:10px;
   color:#FFFFFF;
 }
 .bottomrightwhite {
   position:absolute;
-  bottom:5px; 
-  right:5px;
+  bottom:10px; 
+  right:10px;
   color:#FFFFFF;
 }
 .bottomleftwhite {
   position:absolute;
-  bottom:5px; 
-  left:5px;
+  bottom:10px; 
+  left:10px;
   color:#FFFFFF;
 }
 .bottomleftblack {
   position:absolute;
-  bottom:5px; 
-  left:5px;
+  bottom:10px; 
+  left:10px;
   color:#000000;
 }
 .column1 {
+  width:420px;
   padding:10px 5px 10px 0px;
 }
 .column2 {
+  width:420px;
   padding:10px 5px 10px 5px;
 }
 .column3 {
+  width:420px;
   padding:10px 0px 10px 5px;
 }
 #contact {
+  clear:both;
   text-align:center;
 }
 input {
