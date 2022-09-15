@@ -15,6 +15,7 @@ body {
   }
   #top {
     background-color:#000000;
+    overflow:auto;
     }
   h1 {
     font-size:40px;
@@ -77,10 +78,35 @@ img[src="images/TK.png"] {
   }
 figure {
   width:420px;
+  position:relative;
 }
 .topleftblack {
   position:absolute;
   top:5px; 
+  left:5px;
+  color:#000000;
+}
+.topleftwhite {
+  position:absolute;
+  top:5px; 
+  left:5px;
+  color:#FFFFFF;
+}
+.bottomrightwhite {
+  position:absolute;
+  bottom:5px; 
+  right:5px;
+  color:#FFFFFF;
+}
+.bottomleftwhite {
+  position:absolute;
+  bottom:5px; 
+  left:5px;
+  color:#FFFFFF;
+}
+.bottomleftblack {
+  position:absolute;
+  bottom:5px; 
   left:5px;
   color:#000000;
 }
@@ -99,6 +125,8 @@ figure {
 input {
   width:850px;
   padding:10px;
+  display:block;
+  margin: 0 auto;
 }
 form h2, form p, form label {
   color:#FFFFFF;
