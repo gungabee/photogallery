@@ -28,6 +28,7 @@ h2 {
   }
 nav {
   float:right;
+  width:50%;
 }
   nav h2 {
     visibility:hidden;
@@ -35,6 +36,7 @@ nav {
   }
   nav li {
     float:right;
+    text-align:center;
     padding:10px;
     font-size:20px;
   }
@@ -55,7 +57,13 @@ nav {
     bottom:0px;
     right:0px;
     border-radius:10px 0 0px 0px;
+    background-color:#007D7B;
+    text-transform:uppercase;
   }
+  [href="#top"]:hover {
+    color:#007D7B;
+    background-color:#FFFFFF;
+}
 img[src="images/TK.png"] {
     width:850px;
     margin: 10px;
@@ -70,6 +78,19 @@ img[src="images/TK.png"] {
   }
 figure {
   width:420px;
+}
+figcaption.topleftblack {
+  color:#000000;
+  text-align:top, left;
+}
+.column1 {
+  padding:10px 5px 10px 0px;
+}
+.column2 {
+  padding:10px 5px 10px 5px;
+}
+.column3 {
+  padding:10px 0px 10px 5px;
 }
 #contact {
   text-align:center;
@@ -100,5 +121,3 @@ footer {
     font-size:16px;
     text-align:center;
 }
-  
-  
