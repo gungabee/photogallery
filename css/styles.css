@@ -63,19 +63,18 @@ p {
 }
 img[src="images/TK.png"] {
   width:850px;
-  margin:5px;
+  margin:10px;
   float:left;
 }
 #about {
   width:420px;
   float:right;
-  margin:5px;
   margin-right:5px;
 }
 #gallery {
   clear:both;
-  margin:5px;
   overflow:auto;
+  margin-left:5px;
 }
 figure {
 margin:5px;
@@ -124,20 +123,6 @@ bottom:10px;
 left:10px;
 color:#000000;
 }
-/*
-.column1 {
-width:420px;
-padding:10px 5px 10px 0px;
-}
-.column2 {
-width:420px;
-padding:10px 5px 10px 5px;
-}
-.column3 {
-width:420px;
-padding:10px 0px 10px 5px;
-}
-*/
 #contact {
 background-color:#000000;
 color:#FFFFFF;
@@ -178,4 +163,5 @@ footer {
   color:#FFFFFF;
   font-size:16px;
   text-align:center;
+  padding:20px;
 }
