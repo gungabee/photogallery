@@ -74,6 +74,7 @@ img[src="images/TK.png"] {
 #gallery {
   clear:both;
   overflow:auto;
+  margin-left:5px;
 }
 #gallery h2, p {
 margin-left:10px;
